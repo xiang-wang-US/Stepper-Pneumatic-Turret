@@ -16,7 +16,7 @@ const unsigned int localUdpPort = 1234; // Port from Python script
 // ***** Motor & Camera Configuration *****
 const int STEPS_PER_REVOLUTION = 200; // Steps per full 360° rotation 
 const int MICROSTEPPING = 16;         // Microsteps  
-const float CAMERA_FOV = 75.0;        // F0V in degrees
+const float CAMERA_FOV = 75.0;        // FOV in degrees
 
 // ***** Calculated Global Constants *****
 const float STEPS_PER_DEGREE = (STEPS_PER_REVOLUTION * MICROSTEPPING) / 360.0;
